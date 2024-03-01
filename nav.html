@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navbar</title>
+<style>
+    ul {
+       
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #E97451;
+        column-span: 5px;
+        border-collapse: collapse;
+    } 
+    li {
+        float: left;
+        margin-left: 10px;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 11px 16px;
+        text-decoration: none;
+        font-family:sans-serif;
+        font-weight: bolder;
+    }
+    li a:hover {
+        border-bottom: 3px solid black;
+        color: black;
+    }
+    li span {
+        position: relative;
+        left: -10px;
+    }
+    li::marker {
+        color: rgb(181, 171, 171);
+    }
+</style>
+</head>
+<body>
+<ul>
+    <li><span><a href="#home">HOME</a></li>
+    <li><span><a href="#about">PRODUCTS</a></span></li>
+    <li><span><a href="#services">COMPANY</a></span></li>
+    <li><span><a href="#contact">CONTACT</a></span></li>
+</ul>
+</body>
+</html>
